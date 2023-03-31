@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 
+        Tesseract Script
+    -->
+    <script
+      defer
+      src="https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js"
+    ></script>
+    <!-- 
+        Script 
+    -->
+    <script src="Script.js" defer></script>
+    <title>Audiobook Reader</title>
+  </head>
+  <body>
+    <!-- 
+        Video Pane 
+    -->
+    <video height="560" width="720" autoplay muted></video>
+    <!-- 
+        Text Result Pane 
+    -->
+    <pre
+      data-text
+      style="
+        width: 100%;
+        font-family: inherit;
+        font-size: 2rem;
+        white-space: pre-wrap;
+      "
+    ></pre>
+  </body>
+</html>
